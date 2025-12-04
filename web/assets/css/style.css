@@ -59,6 +59,38 @@ body {
   opacity: 0.8;
 }
 
+/* SEZIONE PREZZO LANCIO */
+.launch-price {
+  text-align: center;
+  padding: 40px 20px;
+  background: #f0f4f8;
+}
+
+.launch-price h2 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+.launch-price .price {
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+.launch-price .price .old {
+  text-decoration: line-through;
+  color: #aaa;
+  margin-right: 10px;
+}
+
+.launch-price .price .new {
+  color: #ff6f00;
+}
+
+/* ESEMPI */
+.examples {
+  padding: 60px 20px;
+}
+
 .examples-grid {
   display: flex;
   flex-wrap: wrap;
@@ -98,21 +130,7 @@ body {
   color: #555;
 }
 
-.price {
-  margin-top: 8px;
-  font-weight: 700;
-}
-
-.price .old {
-  text-decoration: line-through;
-  color: #aaa;
-  margin-right: 5px;
-}
-
-.price .new {
-  color: #ff6f00;
-}
-
+/* CTA */
 .cta.big {
   font-size: 1.2rem;
   padding: 16px 36px;
