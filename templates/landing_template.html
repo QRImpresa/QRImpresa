@@ -1,1 +1,40 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>{{NOME_ATTIVITA}} — Vetrina QRImpresa</title>
+  <style>
+    body{font-family:Arial;margin:0;padding:20px;background:#fafafa;color:#222}
+    .card{max-width:720px;margin:auto;background:#fff;padding:18px;border-radius:10px;border:1px solid #eee}
+    .hero{display:flex;gap:14px;align-items:center}
+    .hero img{width:160px;height:160px;object-fit:cover;border-radius:8px}
+    .actions a{display:inline-block;padding:10px 14px;background:#0088cc;color:#fff;border-radius:8px;text-decoration:none;margin-right:8px}
+    .qr{margin-top:16px}
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="hero">
+      <img src="{{FOTO_PRINCIPALE}}" alt="{{NOME_ATTIVITA}}">
+      <div>
+        <h1>{{NOME_ATTIVITA}}</h1>
+        <p>{{BREVE_DESCRIZIONE}}</p>
+        <p><strong>Servizi:</strong> {{SERVIZI}}</p>
+      </div>
+    </div>
 
+    <div class="contacts" style="margin-top:12px">
+      <p><strong>Indirizzo:</strong> {{INDIRIZZO}}</p>
+      <p><strong>Telefono:</strong> <a href="tel:{{TELEFONO}}">{{TELEFONO}}</a></p>
+      <p><strong>WhatsApp:</strong> <a href="https://wa.me/{{WHATSAPP}}">Chatta ora</a></p>
+      <p><strong>Instagram:</strong> <a href="{{INSTAGRAM}}" target="_blank">{{INSTAGRAM}}</a></p>
+    </div>
+
+    <div class="qr">
+      <p>Scansiona per aprire la pagina:</p>
+      <img src="{{QR_IMAGE_PATH}}" alt="QR code" width="240" height="240">
+    </div>
+  </div>
+</body>
+</html>
