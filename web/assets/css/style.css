@@ -59,30 +59,58 @@ body {
   opacity: 0.8;
 }
 
-.examples {
-  padding: 60px 20px;
-}
-
 .examples-grid {
   display: flex;
-  gap: 30px;
   flex-wrap: wrap;
+  gap: 30px;
   justify-content: center;
 }
 
 .example {
-  text-align: center;
   background: #fff;
-  border-radius: 10px;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+  text-align: center;
+  width: 260px;
   padding: 20px;
-  width: 250px;
-  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.example:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 25px rgba(0,0,0,0.15);
 }
 
 .example img {
-  max-width: 100%;
-  border-radius: 8px;
-  margin-bottom: 15px;
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 12px;
+}
+
+.example h4 {
+  margin: 10px 0 5px;
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
+.example p {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.price {
+  margin-top: 8px;
+  font-weight: 700;
+}
+
+.price .old {
+  text-decoration: line-through;
+  color: #aaa;
+  margin-right: 5px;
+}
+
+.price .new {
+  color: #ff6f00;
 }
 
 .cta.big {
