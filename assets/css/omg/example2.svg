@@ -1,1 +1,8 @@
-
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <rect width="100%" height="100%" fill="#ffffff"/>
+  <rect x="60" y="60" width="1080" height="520" rx="12" fill="#ffffff" stroke="#f0f0f0"/>
+  <rect x="90" y="120" width="330" height="330" rx="10" fill="#f3f7ff" stroke="#e6eefc"/>
+  <path d="M250 200 q40 -40 80 0" stroke="#333" stroke-width="6" fill="none" stroke-linecap="round"/>
+  <text x="460" y="210" font-family="Arial" font-size="36" fill="#333">Parrucchiere</text>
+  <text x="460" y="250" font-family="Arial" font-size="18" fill="#666">Listino, foto tagli, contatto</text>
+</svg>
