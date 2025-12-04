@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
-  <rect width="100%" height="100%" fill="#ffffff"/>
-  <rect x="50" y="50" width="1100" height="500" rx="12" fill="#f6f6f6" stroke="#e6e6e6"/>
-  <circle cx="200" cy="300" r="120" fill="#ffd89b"/>
-  <rect x="380" y="110" width="650" height="120" rx="8" fill="#fff" stroke="#e8e8e8"/>
-  <text x="420" y="180" font-family="Arial" font-size="36" fill="#333">Ristorante: Tagliata</text>
-  <text x="420" y="220" font-family="Arial" font-size="18" fill="#666">Menu, foto e prenotazioni</text>
-</svg>
